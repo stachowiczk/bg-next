@@ -1,0 +1,23 @@
+.list {
+    list-style: none;
+    margin-right: 2rem;
+
+}
+
+.list li {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+.list li:hover {
+    background: #0e1f1b;
+
+}
+
+.container {
+    margin-left: 2rem;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}

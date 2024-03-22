@@ -1,0 +1,1 @@
+export const CONTENTS_PATH = 'src/app/wspolpraca/_contents/'

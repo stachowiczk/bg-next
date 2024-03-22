@@ -1,0 +1,25 @@
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  align-items: center;
+  list-style: none;
+}
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+.link :hover {
+  text-decoration: underline;
+}
+
+.link::after {
+  content: '|';
+  margin: 0 0.5rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: auto;
+}

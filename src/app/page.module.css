@@ -108,6 +108,11 @@
 .logo {
   position: relative;
 }
+
+.navbar {
+  display: flex;
+
+}
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
