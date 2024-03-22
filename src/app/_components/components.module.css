@@ -21,3 +21,7 @@
     overflow-y: scroll;
     scrollbar-width: none;
 }
+
+.container p {
+    margin-top: 1rem;
+}
