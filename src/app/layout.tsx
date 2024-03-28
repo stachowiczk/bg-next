@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
+import Image from "next/image";
 import "./globals.css";
 import "./layout.css";
 import React from "react";
@@ -23,13 +24,20 @@ export default function RootLayout({
         <div className="navbar">
           <ul>
             <li className="logo">
-              <a href="/">BG</a>
+              <a href="/">
+                <Image
+                  src="/favicon-32x32.png"
+                  alt="Logo"
+                  width={32}
+                  height={32}
+                />
+              </a>
             </li>
-            <li className="link"> 
+            <li className="link">
               <Link href="/about">O mnie</Link>
             </li>
             <li className="link">
-              <Link href="/wspolpraca">Współpraca</Link>
+              <Link href="/wspolpraca/konsultacje">Współpraca</Link>
             </li>
             <li className="link">
               <Link href="/blog">Blog</Link>
@@ -40,11 +48,8 @@ export default function RootLayout({
           </ul>
         </div>
 
-        <div>
-        {children}
-        </div>
-        </body>
-
+        <div>{children}</div>
+      </body>
     </html>
   );
 }

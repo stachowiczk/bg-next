@@ -1,6 +1,16 @@
+.navbar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 2rem; /* Adjust padding as needed */
+  position: fixed;
+  background-color: inherit;
+  z-index: 1000;
+}
+
 .navbar ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   margin: 2rem;
   align-items: center;
   list-style: none;
@@ -14,7 +24,7 @@
 }
 
 .link::after {
-  content: '|';
+  content: "|";
   margin: 0 0.5rem;
 }
 

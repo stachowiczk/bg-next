@@ -3,5 +3,5 @@ import fs from "fs";
 import { CollabText } from "../../_components/CollabText";
 
 export default function Collab() {
-  return <CollabText content={'konsultacje'} />;
+  return <CollabText content={'stala-wspolpraca'} />;
 }
