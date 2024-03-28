@@ -34,7 +34,7 @@ export default function RootLayout({
               </a>
             </li>
             <li className="link">
-              <Link href="/about">O mnie</Link>
+              <Link href="/o-mnie">O mnie</Link>
             </li>
             <li className="link">
               <Link href="/wspolpraca/konsultacje">Współpraca</Link>
