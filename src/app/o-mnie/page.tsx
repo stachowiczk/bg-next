@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../page.module.css";
 import HomepageTop from "../_components/homepage-top";
 import SectionWithHeading from "../_components/section-with-heading";
+import SectionSeparator from "../_components/section-separator";
 
 export default function page() {
   return (
@@ -20,6 +21,7 @@ export default function page() {
             sed adipiscing."
         />
       </section>
+      <SectionSeparator />
       <SectionWithHeading
         heading="Obszary"
         contentLeft="
@@ -37,6 +39,7 @@ export default function page() {
         buttonText="Współpraca"
         buttonRel="wspolpraca/konsultacje"
       />
+      <SectionSeparator />
     </main>
   );
 }

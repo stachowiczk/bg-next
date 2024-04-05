@@ -19,6 +19,7 @@ export default function SectionWithHeading({
         <div className={styles.homepage__hero}>{contentRight}</div>
       </div>
       <Button text={buttonText} rel={buttonRel} />
+      <div style={{ height: "5rem" }}> </div>
     </section>
   );
 }

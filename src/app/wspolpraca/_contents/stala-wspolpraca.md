@@ -1,3 +1,6 @@
+---
+title: "Stała współpraca"
+---
 # Stała współpraca
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

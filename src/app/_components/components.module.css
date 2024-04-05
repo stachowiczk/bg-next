@@ -1,17 +1,23 @@
 .list {
   list-style: none;
-  margin-right: 2rem;
+  margin-right: 5rem;
   position: fixed;
   right: 0;
+}
+
+@media screen and (max-width: 700px){
+    .list {
+        display: none;
+    }
 }
 
 .list li {
   padding: 0.3rem 1rem;
   margin-bottom: 0.5rem;
+
   border: 0px solid #ccc;
   cursor: pointer;
   border-radius: 0px 20px 20px 0px;
-  min-width: 15vw;
 }
 
 .list li::before {
@@ -31,38 +37,56 @@
   text-decoration: none;
   list-style: none;
   padding: 2rem 2rem;
-
 }
 
 .link-left {
-  margin-left: 25vw;
+  margin-left: 15vw;
 }
 
 .link-right {
-    margin-right: 25vw; 
-
+  margin-right: 15vw;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
+  transform: translate(0.5rem);
+  transition: all 0.2s;
 }
 
 .links {
   display: grid;
   grid-template-columns: repeat(2, 50%);
+  column-gap: 5vw;
   grid-template-rows: repeat(3, 33%);
+  font-size: 1.2rem;
 }
 .links__container {
   display: flex;
   justify-content: center;
   margin: 5rem 0;
+  padding: 10vh 0;
+  min-height: 60vh;
+}
+
+@media screen and (max-width: 700px) {
+  .links {
+    font-size: 0.8rem;
+  }
 }
 .container {
-  margin-left: 2rem;
+  padding: 2rem 5rem;
   scrollbar-width: none;
-  max-width: 65vw;
   overflow-y: scroll;
   margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    padding: 0vw 2vw;
+    margin: 0 2vw;
+    justify-content: space-between;
+
+  }
 }
 
 .container p {
@@ -79,7 +103,7 @@
   width: 25px; /* Set width and height to make it a circle */
   height: 25px;
   border-radius: 50%; /* Make it a circle */
-  border: 2px solid rgb(10,22,21); /* White border */
+  border: 2px solid rgb(10, 22, 21); /* White border */
   background: none;
   font-size: 16px; /* Font size */
   position: relative; /* Required for the pseudo-element */
@@ -91,7 +115,6 @@
   justify-content: center;
   align-items: center;
   --webkit-font-smoothing: antialiased;
-  
 }
 
 .button__span {
@@ -104,10 +127,10 @@
 }
 
 .button:hover {
-  background: rgb(10, 22, 21);
+  background: #0a1615;
   color: white;
   border-radius: 25px;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 3rem;
   transition: all 0.3s;
 }
 .container::-webkit-scrollbar {
@@ -128,4 +151,23 @@
 
 .container h4 {
   font-size: small;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+  padding: 3rem;
+  position: relative;
+
+  bottom: 0;
+  width: 100%;
+}
+
+.separator {
+    height: 2px;
+    width: 100%;
+    background-color: #0a1615;
+    border: none;
 }

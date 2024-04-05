@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
+import styles from "./page.module.css";
 import "./globals.css";
 import "./layout.css";
 import React from "react";
+import { Footer } from "./_components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -48,7 +50,9 @@ export default function RootLayout({
           </ul>
         </div>
 
-        <div>{children}</div>
+        <div className={styles.section} style={{ borderBottom: "none" }}>
+          {children}
+        </div>
       </body>
     </html>
   );

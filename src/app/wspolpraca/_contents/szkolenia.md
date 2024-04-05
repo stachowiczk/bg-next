@@ -1,3 +1,6 @@
+---
+title: "Szkolenia"
+---
 # Szkolenia
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

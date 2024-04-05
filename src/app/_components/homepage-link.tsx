@@ -1,7 +1,6 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./components.module.css"
-import { text } from "stream/consumers";
 
 type Props = {
     content: string;

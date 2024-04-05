@@ -1,3 +1,6 @@
+---
+title: "Regulaminy"
+---
 # Regulaminy
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
