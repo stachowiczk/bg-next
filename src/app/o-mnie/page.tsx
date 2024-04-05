@@ -1,8 +1,13 @@
-import React from "react";
+import type { Metadata } from "next";
 import styles from "../page.module.css";
 import HomepageTop from "../_components/homepage-top";
 import SectionWithHeading from "../_components/section-with-heading";
 import SectionSeparator from "../_components/section-separator";
+
+export const metadata: Metadata = {
+  title: "O mnie | BG",
+  description: "O mnie",
+};
 
 export default function page() {
   return (
@@ -18,7 +23,7 @@ export default function page() {
             erat velit. Pellentesque habitant morbi tristique senectus et netus.
             In cursus turpis massa tincidunt dui ut ornare lectus. Ullamcorper
             sit amet risus nullam eget. Sed odio morbi quis commodo odio aenean
-            sed adipiscing."
+            sed adipiscing." page="about"
         />
       </section>
       <SectionSeparator />

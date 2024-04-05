@@ -9,8 +9,8 @@ export default function CollabLayout({
 }) {
   return (
     <section className={styles.collab__section}>
-      {children}
         <CollabSidebar />
+      {children}
     </section>
   );
 }

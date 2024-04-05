@@ -22,7 +22,7 @@ export default function Home() {
             erat velit. Pellentesque habitant morbi tristique senectus et netus.
             In cursus turpis massa tincidunt dui ut ornare lectus. Ullamcorper
             sit amet risus nullam eget. Sed odio morbi quis commodo odio aenean
-            sed adipiscing."
+            sed adipiscing." page="home"
           />
         </section>
         <SectionSeparator />

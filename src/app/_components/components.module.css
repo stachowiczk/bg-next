@@ -1,35 +1,61 @@
 .list {
   list-style: none;
-  margin-right: 5rem;
+  display: flex;
+  justify-content: space-around;
   position: fixed;
-  right: 0;
+  flex-wrap: wrap;
+  top: 10vh;
+
+  background-color: inherit;
+  z-index: 1001;
+  padding: 0 5vw;
 }
 
-@media screen and (max-width: 700px){
-    .list {
-        display: none;
-    }
+.sidebar {
+  position: relative;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  background-color: inherit;
+  z-index: 1000;
 }
 
-.list li {
-  padding: 0.3rem 1rem;
+@media screen and (max-width: 960px) {
+  .list {
+    padding: 5vh 5vw;
+    padding-bottom: 2vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list {
+    padding: 5vh 5vw;
+    padding-bottom: 2vh;
+  }
+}
+
+.list a {
   margin-bottom: 0.5rem;
+  padding: 0.2rem;
 
   border: 0px solid #ccc;
   cursor: pointer;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 20px;
+  text-wrap: nowrap;
 }
 
 .list li::before {
   content: "|";
-  margin-right: 0.5rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.list li:first-child::before {
+  content: "";
 }
 
-.list li:hover {
-  background: #0e1f1b;
-  color: white;
-  transform: translate(0.5rem);
-  transition: all 0.2s;
+.list a:hover {
+  text-decoration: underline;
+  transition: all 0.3s;
 }
 
 .link {
@@ -75,17 +101,23 @@
 }
 .container {
   padding: 2rem 5rem;
+  margin-top: 20vh;
   scrollbar-width: none;
   overflow-y: scroll;
-  margin-bottom: 5rem;
+  z-index: 0;
+  background-color: inherit;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 960px) {
   .container {
-    padding: 0vw 2vw;
-    margin: 0 2vw;
     justify-content: space-between;
+  }
+}
 
+@media screen and (max-width: 470px) {
+  .container {
+    padding-right: 1rem;
+    padding-left: 1rem;
   }
 }
 
@@ -166,8 +198,8 @@
 }
 
 .separator {
-    height: 2px;
-    width: 100%;
-    background-color: #0a1615;
-    border: none;
+  height: 2px;
+  width: 100%;
+  background-color: #0a1615;
+  border: none;
 }

@@ -1,21 +1,11 @@
 .collab__section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10rem;
-    margin-right: 15vw;
-    max-height: 80vh;
-    gap: 15vw;
+    top: 5rem;
+    background-color: inherit;
 
 }
 
 @media screen and (max-width: 700px) {
     .collab__section {
-        display: flex;
-        margin-top: 5rem;
-        margin-left: 5vw;
-        margin-right: 5vw;
-        max-height: 80vh;
-        gap: 5vw;
         font-size: 0.8rem;
     }
     
@@ -23,8 +13,8 @@
 
 @media screen and (min-width: 1440px) {
     .collab__section {
-        margin-left: 15vw;
-        margin-right: 15vw;
+        margin-left: auto;
+        margin-right: auto;
     }
     
 }
