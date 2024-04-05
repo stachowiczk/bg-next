@@ -1,6 +1,8 @@
 .collab__section {
     top: 5rem;
     background-color: inherit;
+    min-height: 110vh;
+    font-size: 0.9rem;
 
 }
 
@@ -11,10 +13,18 @@
     
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1920px) {
     .collab__section {
         margin-left: auto;
         margin-right: auto;
+    }
+    
+}
+
+@media screen and (min-width: 2560px) {
+    .collab__section {
+        font-size: 0.8rem;
+        max-width: 75%;
     }
     
 }

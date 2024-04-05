@@ -50,9 +50,10 @@ export default function RootLayout({
           </ul>
         </div>
 
-        <div className={styles.section} style={{ borderBottom: "none" }}>
+        <div className={styles.section}>
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

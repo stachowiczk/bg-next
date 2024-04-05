@@ -5,10 +5,12 @@
   position: fixed;
   flex-wrap: wrap;
   top: 10vh;
+  width: 100%;
 
   background-color: inherit;
   z-index: 1001;
   padding: 0 5vw;
+  padding-bottom: 5vh;
 }
 
 .sidebar {
@@ -22,7 +24,7 @@
 
 @media screen and (max-width: 960px) {
   .list {
-    padding: 5vh 5vw;
+    padding: 5vh 10vw;
     padding-bottom: 2vh;
   }
 }
@@ -34,29 +36,54 @@
   }
 }
 
-.list a {
-  margin-bottom: 0.5rem;
-  padding: 0.2rem;
+@media screen and (min-width: 2560px) {
+    .list {
+        font-size: 0.8rem;
+        max-width: 79%;
+    }
+    
+}
 
+.list li {
+  padding: 0.1rem 0.4rem;
+  position: relative;
   border: 0px solid #ccc;
   cursor: pointer;
   border-radius: 20px;
   text-wrap: nowrap;
+  transition: all 0.3s ease;
+}
+
+
+
+.list a::before {
+  content: "|";
+  margin-right: 0.5rem;
+}
+
+.list li:hover {
+  transition: all 0.3s;
+  color: white;
 }
 
 .list li::before {
-  content: "|";
-  margin-right: 1rem;
-  margin-left: 1rem;
-}
-.list li:first-child::before {
   content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 0 15px 15px 0;
+  background-color: rgb(8, 43, 29);
+  transition: width 0.3s ease;
+  z-index: -1;
 }
 
-.list a:hover {
-  text-decoration: underline;
-  transition: all 0.3s;
+.list li:hover::before {
+  width: 100%;
+  padding: 0.1rem;
 }
+
 
 .link {
   color: inherit;
@@ -75,8 +102,6 @@
 
 .link:hover {
   text-decoration: underline;
-  transform: translate(0.5rem);
-  transition: all 0.2s;
 }
 
 .links {
@@ -103,7 +128,6 @@
   padding: 2rem 5rem;
   margin-top: 20vh;
   scrollbar-width: none;
-  overflow-y: scroll;
   z-index: 0;
   background-color: inherit;
 }
@@ -159,7 +183,7 @@
 }
 
 .button:hover {
-  background: #0a1615;
+  background: rgb(10, 22, 21);
   color: white;
   border-radius: 25px;
   padding: 0.6rem 3rem;
@@ -189,9 +213,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5vh;
-  padding: 3rem;
   position: relative;
+  padding: 3vh;
+  background-color: rgb(10, 22, 21);
+  color: white;
 
   bottom: 0;
   width: 100%;
@@ -200,6 +225,6 @@
 .separator {
   height: 2px;
   width: 100%;
-  background-color: #0a1615;
+  background-color: rgb(10, 22, 21);
   border: none;
 }

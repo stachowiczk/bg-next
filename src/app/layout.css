@@ -6,11 +6,11 @@
   padding: 1rem 1rem; /* Adjust padding as needed */
   position: fixed;
   background-color: inherit;
-  color: #0a1615;
+  color: rgb(11, 58, 40);
   z-index: 1000;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2000px) {
   .navbar {
     padding: 1rem 10rem; /* Adjust padding as needed */
   }

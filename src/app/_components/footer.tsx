@@ -9,12 +9,12 @@ export const Footer = () => {
           <div className={styles.footer__container__left__logo}>
           </div>
           <div className={styles.footer__container__left__text}>
-            <p>© 2024 All rights reserved</p>
+            <p style={{fontSize: "0.6rem"}}>Polityka prywatności | Regulamin</p>
           </div>
         </div>
         <div className={styles.footer__container__right}>
           <div className={styles.footer__container__right__text}>
-            <p>
+            <p style={{fontSize: "0.5rem", textAlign: "center", color: "#494a49", marginTop: "2vh"}}>
               Created by:{" "}
               <a href="https://www.linkedin.com/in/stachowiczk/">
                 Karol Stachowicz

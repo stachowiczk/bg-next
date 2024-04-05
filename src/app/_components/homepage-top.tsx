@@ -22,8 +22,7 @@ export default function HomepageTop({ content, page }: Props) {
             alt="homepage-top"
             width={320}
             height={400}
-            layout="intrinsic"
-            style={{ borderRadius: "10px" }}
+            style={{ borderRadius: "10px", height: "auto"}}
           />
         </div>
       </div>
