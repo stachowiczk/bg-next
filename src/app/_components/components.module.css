@@ -273,7 +273,7 @@
     padding: 0 4rem;
   }
 }
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1099px) {
   .blog__preview {
     font-size: 0.8rem;
   }
