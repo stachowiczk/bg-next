@@ -255,9 +255,14 @@
 
 .blog__post {
   margin-bottom: 2rem;
+  line-height: 1.5;
 }
 
 .blog__post > * > p {
+  padding: 1rem 0;
+  text-align: justify;
+}
+.blog__post > p {
   padding: 1rem 0;
   text-align: justify;
 }

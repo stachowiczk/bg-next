@@ -1,10 +1,7 @@
 ---
 title: "Example Blog Post 4"
 date: "09-04-2024"
-excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant
-morbi tristique senectus et netus et malesuada fames. Tempor orci
-dapibus ultrices in iaculis nunc sed."
+excerpt: "Justo donec enim diam vulputate ut pharetra sit. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Mollis nunc sed id semper risus in hendrerit. Eget gravida cum sociis natoque penatibus et. Amet purus gravida quis blandit turpis cursus in. Sit amet nisl purus in mollis. Consequat interdum varius sit amet mattis vulputate enim. Dictum at tempor commodo ullamcorper. Ipsum dolor sit amet consectetur. Adipiscing diam donec adipiscing tristique risus nec. At quis risus sed vulputate odio ut enim blandit volutpat. Purus semper eget duis at. Feugiat in ante metus dictum at tempor."
 author: "Karol Stachowicz"  
 ---
 

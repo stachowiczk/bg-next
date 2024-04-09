@@ -13,7 +13,7 @@ export default async function Blog() {
   }
   return (
     <div className={reactStyles.container__blog}>
-      <div className={reactStyles.more__stories}>{getPreviews()}</div>
+      <div className={reactStyles.more__stories} >{getPreviews()}</div>
     </div>
   );
 }
