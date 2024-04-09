@@ -75,11 +75,12 @@
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   .container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 2rem;
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: 0.8rem;
@@ -121,13 +122,13 @@
   }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 600px) {
   .homepage__hero {
     max-width: 70%;
     margin: 0 3rem;
   }
   .homepage__image {
-    max-width: 50%;
     margin-top: 2rem;
+    max-width: 70%;
   }
 }

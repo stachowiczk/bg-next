@@ -1,11 +1,19 @@
-import Image from "next/image";
+import { getAllContents } from "../lib/api";
+import Post from "../_components/post";
+import PostPreview from "../_components/post-preview";
 import styles from "../page.module.css";
-import React from "react";
+import reactStyles from "../_components/components.module.css";
+export default async function Blog() {
+  const content = getAllContents(true);
 
-export default function Home() {
+  function getPreviews() {
+    return content.map((content) => (
+      <PostPreview key={content.slug} post={content} />
+    ));
+  }
   return (
-    <main className={styles.main}>
-      <div>Blog</div>
-    </main>
+    <div className={reactStyles.container__blog}>
+      <div className={reactStyles.more__stories}>{getPreviews()}</div>
+    </div>
   );
 }
