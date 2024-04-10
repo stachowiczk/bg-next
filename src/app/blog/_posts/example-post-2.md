@@ -1,6 +1,6 @@
 ---
 title: "Example Blog Post 2"
-date: "09-04-2024"
+date: "08-03-2024"
 excerpt: "Aliquet bibendum enim facilisis gravida neque convallis a cras. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Nisi scelerisque eu ultrices vitae auctor eu augue. Orci eu lobortis elementum nibh tellus molestie nunc. Neque egestas congue quisque egestas diam in arcu cursus euismod. Interdum velit euismod in pellentesque massa. At quis risus sed vulputate odio. Pellentesque habitant morbi tristique senectus et netus et. Nunc eget lorem dolor sed viverra."
 author: "Karol Stachowicz"  
 ---

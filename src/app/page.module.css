@@ -51,9 +51,9 @@
   z-index: 0;
   background-color: inherit;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 2000px) {
   .section {
-    margin: 0 7.5vw;
+    margin: 0 10vw;
   }
 }
 .container {

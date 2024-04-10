@@ -1,6 +1,6 @@
 import { getAllContents, getContentBySlug } from "@/app/lib/api";
 import markdownToHtml from "@/app/lib/mdToHtml";
-import { CollabText } from "@/app/_components/CollabText";
+import { CollabText } from "@/app/_components/wsp-text";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
 type Params = {

@@ -1,6 +1,7 @@
 import fs from "fs";
 import { Post } from "../interfaces/post";
 import { join } from "path";
+import getDateFromString from "./dateParser";
 import matter from "gray-matter";
 
 const contentsDirectory = join(process.cwd(), "src/app/wspolpraca/_contents");
@@ -25,10 +26,12 @@ export function getAllContents(isBlog = false) {
   if (isBlog) {
     const slugs = fs.readdirSync(blogDirectory);
     const contents = slugs.map((slug) => getContentBySlug(slug, true));
-    return contents;
+    const sortedContents = contents.sort((a, b) => (getDateFromString(a.date) > getDateFromString(b.date) ? -1 : 1));
+    return sortedContents;
   } else {
     const slugs = fs.readdirSync(contentsDirectory);
     const contents = slugs.map((slug) => getContentBySlug(slug));
     return contents;
   }
 }
+

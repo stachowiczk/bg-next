@@ -1,6 +1,6 @@
 import React from "react";
-import { CollabText } from "../_components/CollabText";
-import { CollabSidebar } from "../_components/CollabSidebar";
+import { CollabText } from "../_components/wsp-text";
+import { CollabSidebar } from "../_components/wsp-sidebar";
 import styles from "./layout.module.css";
 export default function CollabLayout({
   children, // will be a page or nested layout

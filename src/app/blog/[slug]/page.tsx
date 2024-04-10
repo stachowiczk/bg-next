@@ -1,6 +1,6 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import styles from "../../_components/components.module.css";
+import { Metadata } from "next";
 import { getContentBySlug, getAllContents } from "../../lib/api";
 import markdownToHtml from "../../lib/mdToHtml";
 import Post from "../../_components/post";
@@ -11,10 +11,32 @@ type Params = {
     slug: string;
   };
 };
+
+export function generateMetadata({ params }: Params): Metadata {
+  const content = getContentBySlug(params.slug, true);
+  return {
+    title: `${content.title} | BG`,
+  };
+}
+
+export function getStaticPaths() {
+  const contents = getAllContents(true);
+  return {
+    paths: contents.map((content) => ({
+      params: {
+        slug: content.slug,
+      },
+    })),
+    fallback: false,
+  };
+}
 export default async function Blog({ params }: Params) {
   const content = getContentBySlug(params.slug, true); // isBlog = true
   const moreContent = getAllContents(true);
-  moreContent.splice(moreContent.findIndex((c) => c.slug === content.slug), 1);
+  moreContent.splice(
+    moreContent.findIndex((c) => c.slug === content.slug),
+    1
+  );
 
   function getPreviews() {
     return moreContent.map((content) => (
@@ -29,12 +51,14 @@ export default async function Blog({ params }: Params) {
   const htmlContent = await markdownToHtml(content.content || "");
   return (
     <div className={styles.container__blog}>
-      <Post title={content.title} content={htmlContent} date={content.date} author={content.author} />
+      <Post
+        title={content.title}
+        content={htmlContent}
+        date={content.date}
+        author={content.author}
+      />
       <SectionSeparator />
-      <div className={styles.more__stories}>
-        {getPreviews()}
-
-        </div>
+      <div className={styles.more__stories}>{getPreviews()}</div>
     </div>
   );
 }

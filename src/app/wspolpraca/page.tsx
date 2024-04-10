@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "../page.module.css";
 import React from "react";
-import { CollabText } from "../_components/CollabText";
+import { CollabText } from "../_components/wsp-text";
 
 export default function Collab() {
   return (
