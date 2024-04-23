@@ -15,6 +15,9 @@ export function HomepageLink({ content, col }: Props) {
   if (content === "stala-wspolpraca") {
     textContent = "Stała współpraca";
   }
+  if (content === "regulacje-wewnetrzne") {
+    textContent = "Regulacje wewnętrzne";
+  }
   return (
     <li className={`${styles.link} ${styles[`link-${col}`]}`}>
       <Link scroll={true} href={link}>{textContent}</Link>

@@ -18,6 +18,7 @@ export const ModalPolicy = ({ show, onClose, type }: Props) => {
   };
 
   return (
+
     <div className={styles.modal__backdrop} onClick={onClose}>
       <div className={styles.modal__container} onClick={onChildClick}>
         <button onClick={onClose} className={styles.modal__close}>

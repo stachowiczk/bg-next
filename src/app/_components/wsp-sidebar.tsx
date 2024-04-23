@@ -17,13 +17,10 @@ export function CollabSidebar() {
           </Link>
         </li>
         <li>
-          <Link href="/wspolpraca/stala-wspolpraca">Stała współpraca</Link>
+          <Link href="/wspolpraca/sprawy">Sprawy</Link>
         </li>
         <li>
-          <Link href="/wspolpraca/pisma">Pisma</Link>
-        </li>
-        <li>
-          <Link href="/wspolpraca/regulaminy">Regulaminy</Link>
+          <Link href="/wspolpraca/regulacje-wewnetrzne">Regulacje wewnętrzne</Link>
         </li>
       </ul>
     </div>

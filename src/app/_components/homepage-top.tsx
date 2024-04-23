@@ -14,7 +14,7 @@ export default function HomepageTop({ content, page }: Props) {
   return (
     <div className={styles.container__top}>
       <div className={styles.container}>
-        <div className={styles.homepage__hero}>{content}</div>
+        <div dangerouslySetInnerHTML={{__html: content}}className={styles.homepage__hero}></div>
 
         <div className={styles.homepage__image}>
           <Image
