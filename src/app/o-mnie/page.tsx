@@ -19,7 +19,6 @@ export default function page() {
           page="about"
         />
       </section>
-      <SectionSeparator />
       <SectionWithHeading
         heading="Specjalizacje"
         contentLeft="
@@ -30,7 +29,6 @@ export default function page() {
         buttonText="Współpraca"
         buttonRel="wspolpraca/konsultacje"
       />
-      <SectionSeparator />
     </main>
   );
 }

@@ -9,8 +9,18 @@
 html,
 body {
   background-color: rgb(255, 255, 255);
-  line-height: 1.5;
+  line-height: 1.8;
+  --webkit-font-smoothing: antialiased;
 }
+
+@media screen and (min-width: 2000px) {
+  body {
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+  
+}
+
   
 
 a {

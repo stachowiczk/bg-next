@@ -10,7 +10,6 @@ import SectionSeparator from "./_components/section-separator";
 export default function Home() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-      <main className={styles.main}>
         <section className={styles.section}>
           <HomepageTop
             content="Jestem adwokatką zrzeszoną w Warszawskiej Izbie Adwokackiej, a moja aplikacja adwokacka rozpoczęła się w 2018 roku. 
@@ -21,13 +20,11 @@ export default function Home() {
             page="home"
           />
         </section>
-        <SectionSeparator />
         <section className={styles.section} style={{}}>
           <HomepageLinks />
           <Button text="Więcej" rel="wspolpraca/konsultacje" />
           <div style={{ height: "5rem" }}> </div>
         </section>
-        <SectionSeparator />
         <SectionWithHeading
           heading="Doświadczenie"
           contentLeft="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -53,8 +50,6 @@ export default function Home() {
           buttonText="Więcej"
           buttonRel="o-mnie"
         />
-        <SectionSeparator />
-      </main>
     </Suspense>
   );
 }

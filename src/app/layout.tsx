@@ -15,7 +15,7 @@ const epilogue = Epilogue({ weight: "300", subsets: ["latin"] });
 const work_sans = Work_Sans({ weight: "300", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home | BG",
+  title: "Strona główna | BG",
   description: "BG",
 };
 
@@ -31,15 +31,12 @@ export default function RootLayout({
           <ul>
             <li className="logo">
               <a href="/">
-                <Image
-                  src="/logo_adw.jpg"
-                  alt="Logo"
-                  width={32}
-                  height={32}
-                />
+                <Image src="/logo_adw.jpg" alt="Logo" width={32} height={32} />
               </a>
             </li>
-            <li className="link-left"><a href="/">Adwokat Beata Gruza</a></li>
+            <li className="link-left">
+              <a href="/">Adwokat Beata Gruza</a>
+            </li>
             <li className="link">
               <Link href="/o-mnie">O mnie</Link>
             </li>
@@ -54,8 +51,9 @@ export default function RootLayout({
             </li>
           </ul>
         </div>
-
-        <div className={styles.section}>{children}</div>
+        <div className={styles.container__all}>
+          {children}
+        </div>
         <Footer />
       </body>
     </html>

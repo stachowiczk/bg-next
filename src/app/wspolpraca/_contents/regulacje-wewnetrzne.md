@@ -1,5 +1,5 @@
 ---
-title: "Regulacje"
+title: "Regulacje Wewnętrzne"
 ---
 # Regulacje wewnętrzne
 
