@@ -10,46 +10,51 @@ import SectionSeparator from "./_components/section-separator";
 export default function Home() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
-        <section className={styles.section}>
-          <HomepageTop
-            content="Jestem adwokatką zrzeszoną w Warszawskiej Izbie Adwokackiej, a moja aplikacja adwokacka rozpoczęła się w 2018 roku. 
-            Jestem absolwentką Prawa na SWPS Uniwersytecie Humanistycznospołecznym (Uniwersytecie SWPS) oraz studiowałam Administrację i
-            Ekonomię na Uniwersytecie Kardynała Stefana Wyszyńskiego.<br/><br/>
-            <p>Do każdego klienta i sprawy podchodzę z indywidualnym zaangażowaniem. 
-            Przyjazne nastawienie, dokładna analiza oraz informowanie o ryzykach to podstawa mojej pracy. Wierzę, że prawo jest sztuką sprawiedliwości. </p>"
-            page="home"
-          />
-        </section>
-        <section className={styles.section} style={{}}>
-          <HomepageLinks />
-          <Button text="Więcej" rel="wspolpraca/konsultacje" />
-          <div style={{ height: "5rem" }}> </div>
-        </section>
-        <SectionWithHeading
-          heading="Doświadczenie"
-          contentLeft="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant
-            morbi tristique senectus et netus et malesuada fames. Tempor orci
-            dapibus ultrices in iaculis nunc sed. Integer vitae justo eget magna
-            fermentum iaculis eu non diam. Posuere sollicitudin aliquam ultrices
-            sagittis. Blandit volutpat maecenas volutpat blandit aliquam etiam
-            erat velit. Pellentesque habitant morbi tristique senectus et netus.
-            In cursus turpis massa tincidunt dui ut ornare lectus. Ullamcorper
-            sit amet risus nullam eget. Sed odio morbi quis commodo odio aenean
-            sed adipiscing."
-          contentRight="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Habitant
-            morbi tristique senectus et netus et malesuada fames. Tempor orci
-            dapibus ultrices in iaculis nunc sed. Integer vitae justo eget magna
-            fermentum iaculis eu non diam. Posuere sollicitudin aliquam ultrices
-            sagittis. Blandit volutpat maecenas volutpat blandit aliquam etiam
-            erat velit. Pellentesque habitant morbi tristique senectus et netus.
-            In cursus turpis massa tincidunt dui ut ornare lectus. Ullamcorper
-            sit amet risus nullam eget. Sed odio morbi quis commodo odio aenean
-            sed adipiscing."
-          buttonText="Więcej"
-          buttonRel="o-mnie"
+      <section className={styles.section}>
+        <HomepageTop
+          content="Jako adwokatka z pasją i doświadczeniem, swoją drogę do zawodu zawdzięczam wielu latom 
+          nauki, praktyki i zaangażowania.
+
+Zrzeszona w Warszawskiej Izbie Adwokackiej, rozpoczęłam aplikację adwokacką w 2018 roku, a zawód adwokata 
+wykonuję od 2021 roku. Ukończyłam prawo na SWPS Uniwersytecie Humanistycznospołecznym (Uniwersytecie SWPS) oraz studiowałam
+ administrację i ekonomię na Uniwersytecie Kardynała Stefana Wyszyńskiego.
+<br/><br/>
+Do każdego klienta i sprawy podchodzę z indywidualnym zaangażowaniem. Przyjazne nastawienie, dokładna 
+analiza oraz informowanie o ryzykach to podstawa mojej pracy.
+<br/><br/>
+ Wierzę, że prawo jest sztuką sprawiedliwości."
+          page="home"
         />
+      </section>
+      <section className={styles.section} style={{}}>
+        <HomepageLinks />
+        <Button text="Więcej" rel="wspolpraca/konsultacje" />
+        <div style={{ height: "5rem" }}> </div>
+      </section>
+      <SectionWithHeading
+        heading=" ,,Prawo to pasja, która prowadzi do doskonałości w każdej sprawie”"
+        contentLeft="Moja kancelaria oferuje kompleksową obsługę prawną, która obejmuje 
+        zarówno jednorazowe konsultacje, jak i długoterminową współpracę. Specjalizuję się w różnorodnych
+         dziedzinach prawa, w tym w prawie administracyjnym, pracowniczym i gospodarczym, co pozwala 
+         mi skutecznie doradzać przedsiębiorstwom, uczelniom oraz klientom indywidualnym.
+
+Moje usługi obejmują profesjonalne konsultacje prawne, szkolenia dla firm i organizacji, a także 
+przygotowywanie fachowych opinii i ekspertyz. Gwarantuję szybkie reagowanie na potrzeby klientów oraz 
+indywidualne podejście do każdej sprawy, niezależnie od jej złożoności.
+"
+        contentRight="W ramach współpracy zapewniam bieżące doradztwo prawne, weryfikację i przygotowywanie
+         dokumentacji, a także reprezentację przed sądami i organami administracji. Ponadto, zajmuję się
+          tworzeniem i aktualizacją regulaminów oraz procedur wewnętrznych, dbając o zgodność z 
+          obowiązującymi przepisami prawnymi. W zakresie spraw wymagających specjalistycznej wiedzy 
+          wykraczającej poza moje umiejętności, współpracuję z najlepszymi ekspertami i ekspertkami.
+
+Mój priorytet to zapewnienie bezpieczeństwa prawnego i spokoju ducha moim klientom. 
+Dlatego w każdym przypadku staram się dostosować zakres usług do specyficznych potrzeb klienta, 
+gwarantując profesjonalizm, skuteczność i pełne zaangażowanie.
+"
+        buttonText="Więcej"
+        buttonRel="o-mnie"
+      />
     </Suspense>
   );
 }

@@ -20,7 +20,7 @@ export default function page() {
         />
       </section>
       <SectionWithHeading
-        heading="Specjalizacje"
+        heading="Specjalizacja"
         contentLeft="
            Jestem specjalistką w zakresie prawa administracyjnego i sądowoadministracyjnego. Moje doświadczenie obejmuje szerokie spektrum spraw, od kwestii pracowniczych i gospodarczych, po unikalne wyzwania związane ze środowiskiem akademickim i biznesowym, co pozwala mi na efektywne wspieranie różnorodnych podmiotów.
            Jestem wiceprzewodniczącą Sekcji Prawa Administracyjnego i Sądowo-Administracyjnego przy Okręgowej Radzie Adwokackiej. Moją pasję do przekazywania wiedzy przekuwam w prowadzenie szkoleń, zaś w czasach studenckich aktywnie uczestniczyłam w Studenckiej Poradni Prawnej i Kole Naukowym Komparatystyki Prawniczej. 
