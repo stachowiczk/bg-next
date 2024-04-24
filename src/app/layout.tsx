@@ -47,7 +47,7 @@ export default function RootLayout({
               <Link href="/blog">Blog</Link>
             </li>
             <li className="link">
-              <Link href="/contact">Kontakt</Link>
+              <Link href= "#kontakt">Kontakt</Link>
             </li>
           </ul>
         </div>

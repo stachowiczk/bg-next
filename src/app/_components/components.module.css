@@ -222,7 +222,7 @@
   align-items: center;
   position: relative;
   padding: 3vh;
-  background-color: rgb(10, 22, 21);
+  background-color: #0a1615;
   color: white;
 
   bottom: 0;
@@ -423,4 +423,21 @@
   border: none;
   cursor: pointer;
   margin-left: auto;
+}
+
+.contact__link__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact__link__text {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contact__link__text {
+    font-size: 1rem;
+  }
 }

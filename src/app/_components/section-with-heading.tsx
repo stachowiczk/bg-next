@@ -21,7 +21,7 @@ export default function SectionWithHeading({
   let font;
   let font_size;
   if (heading === "Specjalizacja") {
-    font = null;
+    font = undefined;
     font_size = "";
 
   } else {
@@ -31,7 +31,7 @@ export default function SectionWithHeading({
   return (
     <section className={styles.section}>
       <div className={styles.container__title}>
-        <div dangerouslySetInnerHTML={{__html: heading}}className={font} style={{ fontSize: font_size}}></div>
+        <div dangerouslySetInnerHTML={{__html: heading}} className={font} style={{ fontSize: font_size}}></div>
       </div>
       <div className={styles.container}>
         <div className={styles.homepage__hero}>{contentLeft}</div>{" "}

@@ -6,6 +6,7 @@ import { Button } from "./_components/button";
 import HomepageTop from "./_components/homepage-top";
 import SectionWithHeading from "./_components/section-with-heading";
 import SectionSeparator from "./_components/section-separator";
+import SectionWithLinks from "./_components/section-with-links";
 
 export default function Home() {
   return (
@@ -54,6 +55,13 @@ gwarantując profesjonalizm, skuteczność i pełne zaangażowanie.
 "
         buttonText="Więcej"
         buttonRel="o-mnie"
+      />
+      <SectionWithLinks
+        title="Kontakt"
+        links={[
+          { text: "beata.gruza@adwokatura.pl", icon: "/email.svg" },
+          { text: "(+48) 604 912 096", icon: "/phone.svg" },
+        ]}
       />
     </Suspense>
   );
