@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import styles from "../page.module.css";
 import HomepageTop from "../_components/homepage-top";
 import SectionWithHeading from "../_components/section-with-heading";
-import SectionSeparator from "../_components/section-separator";
 
 export const metadata: Metadata = {
   title: "O mnie | BG",

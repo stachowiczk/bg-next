@@ -1,6 +1,5 @@
 import ContactLink from "./contact-link";
 import styles from "../page.module.css";
-import Image from "next/image";
 
 type Props = {
   title: string;

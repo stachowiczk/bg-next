@@ -1,11 +1,9 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import React, { Suspense } from "react";
+import { Suspense } from "react";
 import { HomepageLinks } from "./_components/homepage-links";
 import { Button } from "./_components/button";
 import HomepageTop from "./_components/homepage-top";
 import SectionWithHeading from "./_components/section-with-heading";
-import SectionSeparator from "./_components/section-separator";
 import SectionWithLinks from "./_components/section-with-links";
 
 export default function Home() {

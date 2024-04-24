@@ -1,5 +1,5 @@
 "use client";
-import { use, useEffect, useState } from "react";
+import { useState } from "react";
 import { ModalPolicy } from "./modal-policy";
 import styles from "./components.module.css";
 

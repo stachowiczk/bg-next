@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./components.module.css";
 import pageStyles from "../page.module.css";
 import { HomepageLink } from "./homepage-link";

@@ -17,11 +17,9 @@ Niezależnie od tego, czy są Państwo przedsiębiorcami, osobami fizycznymi, re
 
 -    Kompleksową analizę prawną: Dogłębnie analizuję wszystkie aspekty sprawy, aby zapewnić dokładne zrozumienie możliwości prawnych i ryzyk.
 
-<br/><br/>
 
 -    Spersonalizowane rozwiązania: Każda sprawa jest unikalna, dlatego dostarczam rozwiązania dostosowane do indywidualnych potrzeb i specyfiki działalności klienta.
 
-<br/><br/>
 
 -    Wsparcie w decyzjach: Pomagam w podejmowaniu świadomych decyzji prawnych, które wspierają cele biznesowe lub osobiste.
 

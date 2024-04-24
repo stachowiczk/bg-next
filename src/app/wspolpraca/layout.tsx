@@ -1,5 +1,4 @@
 import React from "react";
-import { CollabText } from "../_components/wsp-text";
 import { CollabSidebar } from "../_components/wsp-sidebar";
 import styles from "./layout.module.css";
 export default function CollabLayout({

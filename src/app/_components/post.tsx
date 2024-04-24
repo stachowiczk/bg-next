@@ -1,5 +1,4 @@
 import type { Post } from "../interfaces/post";
-import markdownToHtml from "../lib/mdToHtml";
 import styles from "./components.module.css";
 type Props = {
   title: string;

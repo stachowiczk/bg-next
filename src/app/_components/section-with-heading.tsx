@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./button";
 import styles from "../page.module.css";
 import { Noto_Serif, Work_Sans } from "next/font/google";

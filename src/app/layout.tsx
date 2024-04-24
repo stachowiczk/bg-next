@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Roboto, Epilogue, Work_Sans } from "next/font/google";
+import { Work_Sans } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./page.module.css";
 import "./globals.css";
 import "./layout.css";
-import React from "react";
 import { Footer } from "./_components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
-const roboto = Roboto({ weight: "400", subsets: ["latin"] });
-const epilogue = Epilogue({ weight: "300", subsets: ["latin"] });
+//const inter = Inter({ subsets: ["latin"] });
+//const roboto = Roboto({ weight: "400", subsets: ["latin"] });
+//const epilogue = Epilogue({ weight: "300", subsets: ["latin"] });
 const work_sans = Work_Sans({ weight: "300", subsets: ["latin"] });
 
 export const metadata: Metadata = {
