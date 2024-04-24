@@ -92,6 +92,16 @@ div .section:nth-of-type(even) {
     justify-content: space-between;
     font-size: 0.8rem;
   }
+
+  .container__blog__previews {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -117,6 +127,16 @@ div .section:nth-of-type(even) {
   margin-left: 1rem;
   text-align: center;
   margin-right: 1rem;
+}
+
+.container__blog__previews {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  margin-top: 5vh;
+  min-height: 65vh;
+
 }
 
 .container__top {

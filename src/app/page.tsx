@@ -5,6 +5,8 @@ import { Button } from "./_components/button";
 import HomepageTop from "./_components/homepage-top";
 import SectionWithHeading from "./_components/section-with-heading";
 import SectionWithLinks from "./_components/section-with-links";
+import { getAllContents } from "./lib/api";
+import HomepageBlogPreview from "./_components/homepage-blog-preview";
 
 export default function Home() {
   return (
@@ -54,6 +56,7 @@ gwarantując profesjonalizm, skuteczność i pełne zaangażowanie.
         buttonText="Więcej"
         buttonRel="o-mnie"
       />
+      <HomepageBlogPreview />
       <SectionWithLinks
         title="Kontakt"
         links={[
