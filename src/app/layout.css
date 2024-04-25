@@ -44,10 +44,37 @@
   .navbar ul {
     font-size: 0.6rem;
   }
+
+  .link-left li {
+    padding-left: 0rem;
+  }
+  
+}
+
+@media screen and (min-width: 450px) {
+  .link-left {
+    padding-left: 1rem;
+
+  }
+  
+}
+
+@media screen and (max-width: 375px) {
+  .navbar ul {
+  }
+
+  .link-left {
+    text-wrap:balance;
+  }
+
+  .logo {
+    margin-right:auto;
+  }
   
 }
 .link {
   text-decoration: none;
+  text-wrap: nowrap;
 }
 .link :hover {
   text-decoration: underline;
@@ -55,7 +82,6 @@
 
 .link-left {
   margin-right: auto;
-  padding-left: 1rem;
 }
 
 .link-left::before {

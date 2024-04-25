@@ -397,15 +397,32 @@
   background-color: white;
   color: black;
   width: 90%;
+  max-height: 80vh;
   padding: 1rem 5rem;
   border-radius: 15px;
   cursor: default;  
   font-size: 1rem;
-  overflow-y: scroll;
+  overflow: scroll;
   scrollbar-width: none;
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (max-width: 600px) {
+  .modal__container {
+    padding: 1rem 2rem;
+  }
+  
+}
+
+.modal__container ol ol {
+  padding-left: 2rem;
+}
+
+.modal__container ol ol ol {
+  padding-left: 3rem;
+}
+
 
 .modal__button {
   background-color: transparent;
