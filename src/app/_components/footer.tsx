@@ -26,7 +26,7 @@ export const Footer = () => {
               <button className={styles.modal__button} onClick={openModalPolityka}>
                 Polityka prywatności
               </button>{" "}
-              | <button className={styles.modal__button} onClick={openModalRegulamin}>Regulamin</button>
+              
               <ModalPolicy
                 show={showModal}
                 onClose={closeModal}

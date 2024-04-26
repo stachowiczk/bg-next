@@ -139,6 +139,19 @@ div .section:nth-of-type(even) {
 
 }
 
+.container__blog__previews::after {
+  content: "";
+  flex: 1;
+  min-width: 50%;
+  visibility: hidden;
+}
+
+.container__blog__previews > .blog__preview {
+  margin: 0 auto;
+  flex: 1;
+  min-width: 50%;
+}
+
 .container__top {
   margin-top: 10rem;
   margin-bottom: 5rem;
