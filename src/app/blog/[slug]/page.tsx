@@ -19,16 +19,13 @@ export function generateMetadata({ params }: Params): Metadata {
   };
 }
 
-export function getStaticPaths() {
+export async function generateStaticParams() {
   const contents = getAllContents(true);
-  return {
-    paths: contents.map((content) => ({
-      params: {
-        slug: content.slug,
-      },
-    })),
-    fallback: false,
-  };
+  return contents.map((content) => ({
+    params: {
+      slug: content.slug,
+    },
+  }));
 }
 export default async function Blog({ params }: Params) {
   const content = getContentBySlug(params.slug, true); // isBlog = true
