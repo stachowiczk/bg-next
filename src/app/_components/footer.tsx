@@ -13,7 +13,7 @@ export const Footer = () => {
   const openModalRegulamin = () => {
     setShowModal(true);
     setModalType("regulamin");
-  }
+  };
   const closeModal = () => setShowModal(false);
 
   return (
@@ -22,11 +22,14 @@ export const Footer = () => {
         <div className={styles.footer__container__left}>
           <div className={styles.footer__container__left__logo}></div>
           <div className={styles.footer__container__left__text}>
-            <p style={{ fontSize: "0.6rem" }}>
-              <button className={styles.modal__button} onClick={openModalPolityka}>
+            <p style={{ fontSize: "0.6rem", textAlign: "center" }}>
+              <button
+                className={styles.modal__button}
+                onClick={openModalPolityka}
+              >
                 Polityka prywatności
-              </button>{" "}
-              
+              </button>
+
               <ModalPolicy
                 show={showModal}
                 onClose={closeModal}

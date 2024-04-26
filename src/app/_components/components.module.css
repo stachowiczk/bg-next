@@ -435,6 +435,7 @@
   border: none;
   cursor: pointer;
   color: white;
+  text-align: center;
 }
 
 .modal__close {
