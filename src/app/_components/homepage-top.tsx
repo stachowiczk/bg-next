@@ -7,9 +7,9 @@ type Props = {
 };
 
 export default function HomepageTop({ content, page }: Props) {
-  let image = "/image2.jpg";
+  let image = "/image2.webp";
   if (page === "about") {
-    image = "/image.jpg";
+    image = "/image.webp";
   }
   return (
     <div className={styles.container__top}>
