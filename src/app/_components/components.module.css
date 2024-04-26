@@ -187,6 +187,7 @@
   left: 50%;
   white-space: nowrap; /* Prevent text from wrapping */
   z-index: 1000;
+  color: black;
 }
 
 .button:hover {
@@ -195,6 +196,10 @@
   border-radius: 25px;
   padding: 0.6rem 3rem;
   transition: all 0.3s;
+}
+
+.button__span:hover {
+  color: white;
 }
 .container::-webkit-scrollbar {
   display: none;
