@@ -25,7 +25,7 @@ export const ModalPolicy = ({ show, onClose, type }: Props) => {
           X
         </button>
         {type === "polityka-prywatnosci" ? (
-            <div className={styles.modal__content}
+            <div className={styles.modal__content} style={{textAlign: "justify"}}
                 dangerouslySetInnerHTML={{ __html: POLITYKA }}>
                 </div> ) : <div className={styles.modal__content}
                 dangerouslySetInnerHTML={{ __html: REGULAMIN }}>
