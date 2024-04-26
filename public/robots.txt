@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://beatagruza-kancelaria.pl
+
+# Sitemaps
+Sitemap: https://beatagruza-kancelaria.pl/sitemap.xml
