@@ -26,14 +26,11 @@ export function generateMetadata({params}: Params): Metadata {
     };
 }
 
-export function getStaticPaths() {
-    const contents = getAllContents();
-    return {
-        paths: contents.map((content) => ({
-            params: {
-                slug: content.slug,
-            },
-        })),
-        fallback: false,
-    };
+export async function generateStaticParams() {
+  const contents = getAllContents();
+  return contents.map((content) => ({
+    params: {
+      slug: content.slug,
+    },
+  }));
 }
