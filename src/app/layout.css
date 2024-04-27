@@ -28,7 +28,7 @@
     text-wrap: nowrap;
   }
   .navbar {
-    display: inline;
+    display: inline-block;
   }
 }
 
@@ -44,7 +44,6 @@
     padding: 1rem 0;
   }
   .navbar ul {
-    margin: 0 0.3rem;
   }
 }
 
@@ -60,15 +59,12 @@
 }
 
 @media screen and (min-width: 450px) {
-  .link-left {
-    padding-left: 1rem;
-
-  }
   
 }
 
 @media screen and (max-width: 375px) {
-  .navbar ul {
+  .navbar {
+    height: 13vh;
   }
 
   .link-left {

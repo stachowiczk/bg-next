@@ -181,7 +181,7 @@ div .section:nth-of-type(even) {
 @media screen and (max-width: 960px) {
   .homepage__hero {
     max-width: 90%;
-    padding: 0 3rem;
+    padding: 0 1rem;
   }
 }
 
