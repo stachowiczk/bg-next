@@ -130,7 +130,7 @@
 @media screen and (max-width: 700px) {
   .links {
     font-size: 1.1rem;
-    text-wrap: nowrap;
+    text-wrap: wrap;
   }
 }
 .container {
@@ -243,7 +243,7 @@
   border: none;
 }
 .container__blog {
-  margin-top: 15vh;
+  margin-top: 22vh;
   scrollbar-width: none;
   z-index: 0;
   display: flex;
@@ -253,6 +253,13 @@
 
   background-color: inherit;
   min-height: 90vh;
+}
+
+@media screen and (max-height: 400px) {
+  .container__blog {
+    margin-top: 30vh;
+  }
+  
 }
 
 .container__blog ul {

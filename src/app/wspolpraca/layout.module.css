@@ -5,6 +5,13 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    .collab__section {
+        top: 8rem;
+    }
+    
+}
+
 @media screen and (max-width: 700px) {
     .collab__section {
         font-size: 0.8rem;
