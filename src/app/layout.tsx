@@ -26,32 +26,41 @@ export default function RootLayout({
     <html lang="en">
       <body className={work_sans.className}>
         <div className="navbar">
-          <ul>
-            <li className="logo">
-              <a href="/">
-                <Image src="/logo_adw.jpg" alt="Logo" width={32} height={32} />
-              </a>
-            </li>
-            <li className="link-left">
-              <a href="/">Adwokat Beata Gruza</a>
-            </li>
-            <li className="link">
-              <Link href="/o-mnie">O mnie</Link>
-            </li>
-            <li className="link">
-              <Link href="/wspolpraca/konsultacje">Współpraca</Link>
-            </li>
-            <li className="link">
-              <Link href="/blog">Blog</Link>
-            </li>
-            <li className="link">
-              <Link href= "/#kontakt">Kontakt</Link>
-            </li>
-          </ul>
+          <div className="navbar-row">
+            <ul>
+              <li className="logo">
+                <a href="/">
+                  <Image
+                    src="/logo_adw.jpg"
+                    alt="Logo"
+                    width={32}
+                    height={32}
+                  />
+                </a>
+              </li>
+              <li className="link-left">
+                <a href="/">Adwokat Beata Gruza</a>
+              </li>
+            </ul>
+          </div>
+          <div className="navbar-row">
+            <ul>
+              <li className="link">
+                <Link href="/o-mnie">O mnie</Link>
+              </li>
+              <li className="link">
+                <Link href="/wspolpraca/konsultacje">Współpraca</Link>
+              </li>
+              <li className="link">
+                <Link href="/blog">Blog</Link>
+              </li>
+              <li className="link">
+                <Link href="/#kontakt">Kontakt</Link>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className={styles.container__all}>
-          {children}
-        </div>
+        <div className={styles.container__all}>{children}</div>
         <Footer />
       </body>
     </html>

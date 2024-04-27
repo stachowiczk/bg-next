@@ -19,7 +19,10 @@
 @media screen and (max-width: 700px) {
   .navbar {
     padding: 1rem 0;
-    font-size: 0.8rem;
+  }
+  .navbar {
+    display: flex; 
+    flex-direction: column;
   }
 }
 
@@ -33,7 +36,6 @@
 @media screen and (max-width: 560px) {
   .navbar {
     padding: 1rem 0;
-    font-size: 0.8rem;
   }
   .navbar ul {
     margin: 0 0.3rem;
@@ -42,7 +44,6 @@
 
 @media screen and (max-width: 450px) {
   .navbar ul {
-    font-size: 0.8rem;
     text-wrap: balance;
   }
 
@@ -69,7 +70,6 @@
   }
 
   .logo {
-    margin-right:auto;
   }
   
 }
