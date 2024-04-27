@@ -128,7 +128,8 @@
 
 @media screen and (max-width: 700px) {
   .links {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
+    text-wrap: nowrap;
   }
 }
 .container {
@@ -307,7 +308,7 @@
 }
 @media screen and (max-width: 1099px) {
   .blog__preview {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
   }
   .blog__post {
     max-width: 70%;
@@ -316,7 +317,9 @@
 
 @media screen and (max-width: 640px) {
   .blog__preview {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .more__stories > * {
@@ -461,6 +464,6 @@
 
 @media screen and (max-width: 600px) {
   .contact__link__text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 }

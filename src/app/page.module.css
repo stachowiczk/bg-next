@@ -188,11 +188,13 @@ div .section:nth-of-type(even) {
 
 @media screen and (max-width: 600px) {
   .homepage__hero {
-    max-width: 70%;
-    margin: 0 3rem;
+    max-width: 85%;
+    margin: 0 1rem;
+    font-size: 1rem;
   }
   .homepage__image {
     margin-top: 2rem;
     max-width: 70%;
   }
+
 }
