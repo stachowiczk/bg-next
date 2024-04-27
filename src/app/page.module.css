@@ -1,7 +1,4 @@
-.main {
-  width: 100dvw;
 
-}
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
@@ -60,7 +57,7 @@ div .section:nth-of-type(even) {
 }
 
 .container__all {
-  width: 100%;
+  min-width: 100vw;
 }
 @media screen and (min-width: 2000px) {
   .section {
@@ -81,6 +78,7 @@ div .section:nth-of-type(even) {
   position: relative;
   margin-top: 5vh;
   min-height: 65vh;
+  max-width: 100vw;
 }
 
 @media screen and (max-width: 960px) {
@@ -91,6 +89,7 @@ div .section:nth-of-type(even) {
     margin-bottom: 5vh;
     justify-content: space-between;
     font-size: 0.8rem;
+    max-width: 100vw;
   }
 
   .container__blog__previews {
@@ -104,7 +103,7 @@ div .section:nth-of-type(even) {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 960px) {
   .container {
     display: flex;
     flex-direction: column;
@@ -181,8 +180,8 @@ div .section:nth-of-type(even) {
 
 @media screen and (max-width: 960px) {
   .homepage__hero {
-    max-width: 50%;
-    margin: 0 3rem;
+    max-width: 85%;
+    padding: 0 3rem;
   }
 }
 

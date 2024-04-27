@@ -2,13 +2,19 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 10vh;
+  height: 12vh;
   padding: 1rem 1rem; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   position: fixed;
   background-color: inherit;
   color: rgb(11, 58, 40);
   z-index: 1000;
 }
+
+
 
 @media screen and (min-width: 2000px) {
   .navbar {
@@ -19,10 +25,10 @@
 @media screen and (max-width: 700px) {
   .navbar {
     padding: 1rem 0;
+    text-wrap: nowrap;
   }
   .navbar {
-    display: flex; 
-    flex-direction: column;
+    display: inline;
   }
 }
 
