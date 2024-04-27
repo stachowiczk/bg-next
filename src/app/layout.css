@@ -33,7 +33,7 @@
 @media screen and (max-width: 560px) {
   .navbar {
     padding: 1rem 0;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
   .navbar ul {
     margin: 0 0.3rem;
@@ -42,7 +42,8 @@
 
 @media screen and (max-width: 450px) {
   .navbar ul {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+    text-wrap: balance;
   }
 
   .link-left li {
