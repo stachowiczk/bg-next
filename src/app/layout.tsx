@@ -24,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <meta name="google-site-verification" content="ts5HUM7Wxd204-HzlDtyADV4LqjgFgf5OQRxE1zDcV0" />
       <body className={work_sans.className}>
         <div className="navbar">
           <div className="navbar-row">
