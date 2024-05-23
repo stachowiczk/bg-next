@@ -1,5 +1,6 @@
 import ContactLink from "./contact-link";
 import styles from "../page.module.css";
+import Head from "next/head";
 
 type Props = {
   title: string;
@@ -15,9 +16,12 @@ export default function SectionWithLinks({ title, links }: Props) {
       <div className={styles.container__title}>{title}</div>
       <div className={styles.container}>
         <div className={styles.homepage__hero}>
-            <ContactLink key={"left"} text={textLeft} icon="/logo_adw.jpg" />
+          <ContactLink key={"left"} text={textLeft} icon="/logo_adw.jpg" />
         </div>
-        <div className={styles.homepage__hero__links} style={{color: "#0b3a28"}}>
+        <div
+          className={styles.homepage__hero__links}
+          style={{ color: "#0b3a28" }}
+        >
           {links.map((link, index) => (
             <ContactLink key={index} text={link.text} icon={link.icon} />
           ))}

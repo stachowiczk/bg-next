@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import { Suspense } from "react";
+import Head from "next/head";
 import { HomepageLinks } from "./_components/homepage-links";
 import { Button } from "./_components/button";
 import HomepageTop from "./_components/homepage-top";
@@ -11,6 +12,25 @@ import HomepageBlogPreview from "./_components/homepage-blog-preview";
 export default function Home() {
   return (
     <Suspense fallback={<div>Loading...</div>}>
+      <meta name="description" content="Zapraszam do kontaktu mailowego lub telefonicznego:" />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Kancelaria Adwokacka Adwokat Beata Gruza",
+            url: "https://www.beatagruza-kancelaria.pl",
+            image: "https://www.beatagruza-kancelaria.pl/logo_adw.jpg",
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+48 604 912 096",
+              email: "beata.gruza@adwokatura.pl",
+              contactType: "Kontakt telefoniczny",
+            },
+          }),
+        }}
+      />
       <section className={styles.section}>
         <HomepageTop
           content="Jako adwokatka z pasją i doświadczeniem, swoją drogę do zawodu zawdzięczam wielu latom 

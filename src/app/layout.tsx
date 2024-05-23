@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Head from "next/head";
 import { Work_Sans } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image";
@@ -24,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <meta name="google-site-verification" content="ts5HUM7Wxd204-HzlDtyADV4LqjgFgf5OQRxE1zDcV0" />
+        <meta name="google-site-verification" content="ts5HUM7Wxd204-HzlDtyADV4LqjgFgf5OQRxE1zDcV0" />
       <body className={work_sans.className}>
         <div className="navbar">
           <div className="navbar-row">

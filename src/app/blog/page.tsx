@@ -4,7 +4,7 @@ import PostPreview from "../_components/post-preview";
 import reactStyles from "../_components/components.module.css";
 export function generateMetadata(): Metadata {
   return {
-    title: `Blog | BG`,
+    title: `Blog | Adwokat Beata Gruza`,
   };
 }
 export default async function Blog() {

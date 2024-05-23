@@ -22,7 +22,7 @@ export default async function Collab({ params }: Params) {
 export function generateMetadata({params}: Params): Metadata {
     const content = getContentBySlug(params.slug);
     return {
-        title: `${content.title} | BG`,
+        title: `${content.title} | Adwokat Beata Gruza`,
     };
 }
 

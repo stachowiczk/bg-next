@@ -4,7 +4,7 @@ import HomepageTop from "../_components/homepage-top";
 import SectionWithHeading from "../_components/section-with-heading";
 
 export const metadata: Metadata = {
-  title: "O mnie | BG",
+  title: "O mnie | Adwokat Beata Gruza",
   description: "O mnie",
 };
 

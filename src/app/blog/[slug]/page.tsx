@@ -15,7 +15,7 @@ type Params = {
 export function generateMetadata({ params }: Params): Metadata {
   const content = getContentBySlug(params.slug, true);
   return {
-    title: `${content.title} | BG`,
+    title: `${content.title} | Adwokat Beata Gruza`,
   };
 }
 
