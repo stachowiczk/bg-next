@@ -13,8 +13,8 @@ import { Footer } from "./_components/footer";
 const work_sans = Work_Sans({ weight: "300", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Strona główna | BG",
-  description: "Kancelaria Adwokacka Beata Gruza",
+  title: "Strona główna | Adwokat Beata Gruza",
+  description: "Kancelaria Adwokacka Adwokat Beaty Gruzy",
 };
 
 export default function RootLayout({
