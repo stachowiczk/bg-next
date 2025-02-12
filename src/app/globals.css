@@ -27,3 +27,56 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+code {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  text-wrap: wrap;
+  line-height: normal;
+
+}
+
+ol {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+ol ol {
+  counter-reset: counter;
+  list-style: none;
+  padding-left: 20px;
+
+}
+
+ol ol li {
+  counter-increment: item;
+  margin-left: 2em;
+  position: relative;
+}
+
+ol ol li::before {
+  content: counter(item) ")";
+  position: absolute;
+  left: -2em;
+}
+
+em  {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+em em {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1rem;
+  text-decoration: underline;
+  font-weight: 600;
+
+}
+
+h6 em{
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
