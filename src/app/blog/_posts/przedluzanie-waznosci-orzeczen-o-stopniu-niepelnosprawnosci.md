@@ -8,7 +8,7 @@ author: "Beata Gruza"
 Przepisy dotyczące ważności orzeczeń o stopniu niepełnosprawności były wielokrotnie nowelizowane w ostatnich latach, co w praktyce wywołało liczne wątpliwości interpretacyjne wśród organów administracji publicznej. W szczególności dotyczą one okresu obowiązywania orzeczeń, momentu „wydania nowego orzeczenia” czy też dnia, w którym orzeczenie „stanie się ostateczne”. 
 Błędna interpretacja przepisów może niesłusznie pozbawić stronę postępowania prawa do pobierania świadczeń związanych z niepełnosprawnością, takich jak zasiłek pielęgnacyjny, stypendia czy inne formy wsparcia finansowego, mimo że orzeczenie może nadal pozostawać w mocy.
 W niniejszym artykule przedstawię analizę zmian w stanie prawnym dotyczących orzeczeń o niepełnosprawności na przestrzeni ostatnich lat oraz linię orzeczniczą, z której wynika, w jaki sposób należy prawidłowo interpretować przepisy. Wnioski mogą być zaskakujące nawet dla osób od lat zajmujących się postępowaniem administracyjnym.
-Informacje przedstawione w artykule uwzględniają stan prawny na dzień __ lutego 2025 roku.
+Informacje przedstawione w artykule uwzględniają stan prawny na dzień 6 lutego 2025 roku.
 ### Jak zmieniały się przepisy dotyczące ważności orzeczeń o stopniu niepełnosprawności?
 
 
