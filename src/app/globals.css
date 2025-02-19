@@ -29,54 +29,54 @@ a {
 }
 
 code {
-  font-family:'Times New Roman', Times, serif;
   font-size: 1.2rem;
   text-wrap: wrap;
   line-height: normal;
 
 }
 
-ol {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: normal;
+
+
+
+.with-frame {
+  border: 1px solid black;
+  padding: 20px 20px;
 }
-ol ol {
-  counter-reset: counter;
+
+.with-frame ul{
   list-style: none;
-  padding-left: 20px;
-
-}
-
-ol ol li {
-  counter-increment: item;
-  margin-left: 2em;
   position: relative;
 }
 
-ol ol li::before {
-  content: counter(item) ")";
+.with-frame ul li::before {
+  content: "- " !important;
   position: absolute;
-  left: -2em;
+  left: 0;
 }
 
-em  {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 1rem;
-  font-weight: normal;
+.with-frame:has(li) {
+  border: 1px solid black;
+  padding: 20px 30px;
 }
 
-em em {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-size: 1rem;
-  text-decoration: underline;
-  font-weight: 600;
 
+.with-frame.alternative ol {
+  list-style: none;      /* Remove default numbering */
+  counter-reset: item;   /* Initialize a custom counter */
+  position: relative;
 }
 
-h6 em{
-  font-size: 1rem;
-  text-decoration: underline;
+.with-frame.alternative ol li {
+  counter-increment: item;  /* Increment the counter for each li */
+  position: relative;
+  margin-left: 2em;         /* Ensure there's space for the custom marker */
 }
+
+.with-frame.alternative ol li::before {
+  content: counter(item) ") "; /* Custom marker: 1), 2), etc. */
+  position: absolute;
+  left: -2em;                /* Adjust positioning as needed */
+}
+
+
 

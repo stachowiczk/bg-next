@@ -288,6 +288,10 @@
   line-height: 1.8;
 }
 
+.blog__post p:has(ol) {
+  border: 1px solid black;
+}
+
 .blog__post > * > p {
   padding: 1rem 0;
   text-align: justify;
