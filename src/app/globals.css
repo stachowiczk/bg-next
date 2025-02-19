@@ -59,6 +59,10 @@ code {
   padding: 20px 30px;
 }
 
+.with-frame ol ol li {
+  margin-left: 2em;
+}
+
 
 .with-frame.alternative ol {
   list-style: none;      /* Remove default numbering */
@@ -69,13 +73,12 @@ code {
 .with-frame.alternative ol li {
   counter-increment: item;  /* Increment the counter for each li */
   position: relative;
-  margin-left: 2em;         /* Ensure there's space for the custom marker */
 }
 
 .with-frame.alternative ol li::before {
   content: counter(item) ") "; /* Custom marker: 1), 2), etc. */
   position: absolute;
-  left: -2em;                /* Adjust positioning as needed */
+  left: -1.2em;                /* Adjust positioning as needed */
 }
 
 

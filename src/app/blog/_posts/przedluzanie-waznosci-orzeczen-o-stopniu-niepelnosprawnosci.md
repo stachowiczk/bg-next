@@ -29,11 +29,10 @@ Art. 15h Ustawy o szczególnych rozwiązaniach związanych z zapobieganiem, prze
 
 1. Z przyczyn związanych z przeciwdziałaniem COVID-19, orzeczenie o niepełnosprawności albo orzeczenie o stopniu niepełnosprawności, wydane na czas określony na podstawie ustawy z dnia 27 sierpnia 1997 r. o rehabilitacji zawodowej i społecznej oraz zatrudnianiu osób niepełnosprawnych, którego ważność:
 
-    1) upłynęła w terminie do 90 dni przed dniem wejścia w życie niniejszej ustawy, pod warunkiem złożenia w tym terminie kolejnego wniosku o wydanie orzeczenia, zachowuje ważność do upływu 60. dnia od dnia odwołania stanu zagrożenia epidemicznego lub stanu epidemii, <u>jednak nie dłużej niż do dnia wydania nowego orzeczenia o niepełnosprawności albo orzeczenia o stopniu niepełnosprawności;</u>
+    1. upłynęła w terminie do 90 dni przed dniem wejścia w życie niniejszej ustawy, pod warunkiem złożenia w tym terminie kolejnego wniosku o wydanie orzeczenia, zachowuje ważność do upływu 60. dnia od dnia odwołania stanu zagrożenia epidemicznego lub stanu epidemii, <u>jednak nie dłużej niż do dnia wydania nowego orzeczenia o niepełnosprawności albo orzeczenia o stopniu niepełnosprawności;</u>
 
-    2) upływa w terminie od dnia wejścia w życie niniejszej ustawy, zachowuje ważność do upływu 60. dnia od dnia odwołania stanu zagrożenia epidemicznego lub stanu epidemii, <u>jednak nie dłużej niż do dnia wydania nowego orzeczenia o niepełnosprawności albo orzeczenia o stopniu niepełnosprawności</u>
-
-    […]
+    2. upływa w terminie od dnia wejścia w życie niniejszej ustawy, zachowuje ważność do upływu 60. dnia od dnia odwołania stanu zagrożenia epidemicznego lub stanu epidemii, <u>jednak nie dłużej niż do dnia wydania nowego orzeczenia o niepełnosprawności albo orzeczenia o stopniu niepełnosprawności</u>
+    <br>[…]
 
 </i>
 </div>
